@@ -13,6 +13,7 @@ else:
     li = []
     cnt += T//300
     li.append(cnt)
+    cnt = 0
     cnt += (T%300)//60
     li.append(cnt)
     cnt = 0
